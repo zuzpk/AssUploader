@@ -119,7 +119,6 @@ $.fn.assuploader = function(options){
 	}
 
 	function sendFileToServer(formData,status){
-    var uploadURL ="http://hayageek.com/examples/jquery/drag-drop-file-upload/upload.php"; //Upload URL
     var extraData ={}; //Extra Data.
     var jqXHR=$.ajax({
             xhr: function() {
